@@ -1,0 +1,28 @@
+{
+  "name": "gothic-novel-jam",
+  "version": "0.1.0",
+  "description": "Project description",
+  "main": "build/public/gnj.js",
+  "scripts": {
+    "start": "tsc && webpack-dev-server --hot",
+    "build": "tsc && webpack --watch",
+    "prod": "tsc && webpack -p",
+    "test": "cd tests"
+  },
+  "keywords": [
+    "gothic",
+    "novel",
+    "jam"
+  ],
+  "author": "You",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.3",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "engineer-js": "0.0.67",
+    "ts-loader": "^2.3.2"
+  }
+}

@@ -1,0 +1,70 @@
+{
+    "Begining":
+    {
+        "Type":"Basic",
+        "Title":"Begining",
+        "Text":"On the way to the older part of town where your office is situated, an all too common sense of resignation and misery begins to envelop you. To say that the neighborhood has seen better days would be an understatement.  The narrow streets are surrounded on both sides by rows of buildings that seem like they would collapse were they not built in such tight rows. Barely registered by a resident drunkard lying next to the door, you begin to climb the ramshackled stairs. Somewhat surprisingly another feeling surges in your mind. It may not be much, but this is a little heaven, a safehouse keeping the madness of the city at bay. Greeted by a familiar screech of the door, you leave the depression of the outside world behind.",
+        "Image":"Back4",
+        "Layer1":"LayerEx",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"Take the red pill",
+                "Link":"RedPill"
+            },
+            {
+                "Text":"Take the blue pill",
+                "Link":"BluePill"
+            }
+        ]
+    },
+    "RedPill":
+    {
+        "Type":"Basic",
+        "Title":"Red Pill",
+        "Text":"You have chosen the red pill.",
+        "Image":"Back3",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"Go to end.",
+                "Link":"End"
+            }
+        ]
+    },
+    "BluePill":
+    {
+        "Type":"Basic",
+        "Title":"Blue Pill",
+        "Text":"You have chosen the blue pill.",
+        "Image":"Back2",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"Go to end.",
+                "Link":"End"
+            }
+        ]
+    },
+    "End":
+    {
+        "Type":"Basic",
+        "Title":"Ending",
+        "Text":"Game is finished.",
+        "Image":"Back1",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"Complete",
+                "Link":"[CS:Menu]"
+            }
+        ]
+    }
+}

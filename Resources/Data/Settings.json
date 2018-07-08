@@ -1,0 +1,12 @@
+{
+    "GlobalOffset":60,
+    "TitleVisible":true,
+    "TitleEffective":false,
+    "TitleHeight":50,
+    "TitleFontSize":30,
+    "ImageHeight":700,
+    "TextHeight":120,
+    "TextFontSize":15,
+    "OptionHeight":40,
+    "OptionFontSize":18
+}

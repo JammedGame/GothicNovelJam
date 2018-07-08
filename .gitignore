@@ -1,0 +1,4 @@
+/node_modules
+/tscompiled
+/build/tbx_s.js
+package-lock.json
