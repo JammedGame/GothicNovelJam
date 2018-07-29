@@ -16,6 +16,10 @@ class Text extends TBX.Label
             this.InitText(Settings);
         }
     }
+    public UpdateSettings(Settings:any) : void
+    {
+        this.InitText(Settings);
+    }
     private InitText(Settings:any) : void
     {
         this.ForeColor = TBX.Color.FromString("#EEEEEE");

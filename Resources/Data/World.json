@@ -2,61 +2,978 @@
     "Begining":
     {
         "Type":"Basic",
-        "Title":"Begining",
-        "Text":"On the way to the older part of town where your office is situated, an all too common sense of resignation and misery begins to envelop you. To say that the neighborhood has seen better days would be an understatement.  The narrow streets are surrounded on both sides by rows of buildings that seem like they would collapse were they not built in such tight rows. Barely registered by a resident drunkard lying next to the door, you begin to climb the ramshackled stairs. Somewhat surprisingly another feeling surges in your mind. It may not be much, but this is a little heaven, a safehouse keeping the madness of the city at bay. Greeted by a familiar screech of the door, you leave the depression of the outside world behind.",
-        "Image":"Back4",
-        "Layer1":"LayerEx",
+        "Title":"Another time, another place",
+        "Text":"The city you were born into was for centuries a place where magical arts and science existed, and prospered, hand in hand. <br /> It was not a paradise, not by a long shot, it had it’s slums, criminals, corruption... all the things accompanying a sprawling metropolis. Still, none of that hindered progress, breakthroughs in all the fields known to man were made every year. <br /> It was a perfect place for someone such as yourself to thrive. As someone  who had background in both academia and the magical arts, your profession - an investigator specializing in the occult, brought you both recognition and fortune. <br /> That city is no more.",
+        "Image":"City",
+        "Layer1":"",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":17
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"Begining1"
+            }
+        ]
+    },
+    "Begining1":
+    {
+        "Type":"Basic",
+        "Title":"",
+        "Text":"Everything changed with the coming of the Order. <br /> Having operated for decades as a marginalized cult opposing the use of magic, the Order of the purity of mankind started gaining adherents, funds and influence overnight. After a couple of years, in a move that can be described only as a sort of a coup d'etat, the Order proclaimed its teachings as the only true religion, unopposed by the city’s council, already a puppet of the growing organization. Everything related to magic became strictly monitored, then prosecuted shortly afterwards. Prisons became full to the brim overnight.",
+        "Image":"Flag",
+        "Layer1":"",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":17
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"Begining2"
+            }
+        ]
+    },
+    "Begining2":
+    {
+        "Type":"Basic",
+        "Title":"",
+        "Text":"Captivity has thus fare eluded you, but no one can tell for how long. In the meantime, your license has been revoked, as only special agents can now, with the Order’s blessing of course, investigate matters of the arcane nature. A human being is the most perfect form of existence, and magic is just one of the many daemons standing in the way of our ascension. The only thing worse than order’s totalitarianism is it’s pompous propaganda. Then again, those things go hand in hand.",
+        "Image":"Street",
+        "Layer1":"",
         "Layer2":"",
         "Options":
         [
             {
-                "Text":"Take the red pill",
-                "Link":"RedPill"
+                "Text":"< Continue >",
+                "Link":"Begining3"
+            }
+        ]
+    },
+    "Begining3":
+    {
+        "Type":"Basic",
+        "Title":"",
+        "Text":"You tried to adapt to the best of your ability. In fact, a rather important, though mundane, case has just been completed. While not stimulating in any manner, it was significant enough that its favorable conclusion was covered by the local papers. A rare moment of success in these miserable times. Your payment has yet to come through though. Since the Order imposed an embargo on ,,All the activities mocking the purity of mankind” – an embargo that includes most of the activities that you had a hand in, your financial situation is slowly deteriorating. Worse than that, you miss the sheer sense of joy that completely overwhelmed you each time a spell was being cast or a magical ward placed. There is a gaping hole in place of that feeling now, and the only relief can be found in drinking and gambling.",
+        "Image":"BackAlley",
+        "Layer1":"",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":15
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"Begining4"
+            }
+        ]
+    },
+    "Begining4":
+    {
+        "Type":"Basic",
+        "Title":"",
+        "Text":"The heap of unopened letters looks different today. An antique looking envelope catches your attention. It has no address, no sender, only an odd stamp in the upper right corner. The message is even simpler. Written in nearly illegible handwriting are only a handful of words: ,,Hotel Majestic, midnight. Come alone”. There is no signature, instead a lonely rune whose meaning you cannot decipher. <br /> Your first instinct is to throw the letter away. It is most certainly a prank. On other hand, you ponder, there is something intriguing about the whole fashion that this message is delivered – almost like it appeared on its own, dropped out of thin air, on your desk. Since your finances are a little thin, an evening away from the tables might actually do you good, even if it turns out to be a wild goose chase.",
+        "Image":"Letter",
+        "Layer1":"",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":15
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"Hotel"
+            }
+        ]
+    },
+    "Hotel":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"The Majestic… A rat infested dump for years, even before your days at the university. It is actually puzzling that the whole building was not condemned a long time ago. A newspaper article from a while back flashes in your memory: Something about the owner’s heir being unwilling to sell the property. Well, whatever their motive is, you say for yourself, there are certainly no buyers any more for this heap of rotting boards and crumbling bricks.",
+        "Image":"Hotel",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"Hotel1"
+            }
+        ]
+    },
+    "Hotel1":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"The building responds to your critique with an enormous baroque chandelier falling from the ceiling. You dodge it by less than an inch. I should have seen that a mile away, you think, angry at yourself for losing focus. After several minutes of rummaging through the haunted hotel (if it only were haunted, at least there would be someone to speak to…) your relatively cheerful disposition starts to get usurped by annoyance, and soon after, uneasiness. Someone could have heard that noise… a vagrant, or worse yet, an agent of the order – the city is filled with both. The building and its surroundings seem deserted, yet you feel an unfriendly gaze at all times. What kind of delusional dimwit chooses a place like this for a meeting… ",
+        "Image":"Stairs",
+        "Layer1":"",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":16
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelStairs"
+            }
+        ]
+    },
+    "HotelStairs":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"Since there is obviously not a soul in the lobby (at least not a living one), you make your way towards the second floor. <br /> Another disappointment awaits there – the once grandiose staircase has completely collapsed, its rails twisted and steps gone. <br /> If there is a way up, it most certainly does not lead through here.",
+        "Image":"Stairs",
+        "Layer1":"",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextHeight":100,
+            "TextFontSize":16
+        },
+        "Options":
+        [
+            {
+                "Text":"Go Outside",
+                "Link":"HotelStairs1"
             },
             {
-                "Text":"Take the blue pill",
-                "Link":"BluePill"
+                "Text":"Go to the servant’s quarters",
+                "Link":"HotelStairs6"
+            },
+            {
+                "Text":"Levitate to the second floor",
+                "Link":"HotelStairs7"
             }
         ]
     },
-    "RedPill":
+    "HotelStairs1":
     {
         "Type":"Basic",
-        "Title":"Red Pill",
-        "Text":"You have chosen the red pill.",
-        "Image":"Back3",
+        "Title":"Hotel Yard",
+        "Text":"It would be best to clear your mind. Grimy wallpaper and dusty carpets can offer very little in way of advice. As you step out into the front yard, your lungs are filled with the cold night air. The stillness of the surrounding area baffles you. If there is a living being in the area, they are quiet as a grave. You check your surroundings: there is an old ladder next to the abandoned tool shed. The ladder is extremely rickety.",
+        "Image":"Ladders",
+        "Layer1":"",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextHeight":120
+        },
+        "Options":
+        [
+            {
+                "Text":"Use the ladder",
+                "Link":"HotelStairs3"
+            },
+            {
+                "Text":"Return to the lobby",
+                "Link":"HotelStairs2"
+            },
+            {
+                "Text":"Levitate",
+                "Link":"HotelStairs5"
+            }
+        ]
+    },
+    "HotelStairs2":
+    {
+        "Type":"Basic",
+        "Title":"Hotel Yard",
+        "Text":"You reluctantly head back to the lobby.",
+        "Image":"Hotel",
         "Layer1":"",
         "Layer2":"",
         "Options":
         [
             {
-                "Text":"Go to end.",
-                "Link":"End"
+                "Text":"< Continue >",
+                "Link":"HotelStairs"
             }
         ]
     },
-    "BluePill":
+    "HotelStairs3":
     {
         "Type":"Basic",
-        "Title":"Blue Pill",
-        "Text":"You have chosen the blue pill.",
-        "Image":"Back2",
+        "Title":"Hotel Yard",
+        "Text":"It is not as shoddy as it looks. Full of hope, you place the ladder on the faded facade of the Majestic. <br /> Half the way up, the ladder starts to let out an alarming sound. <br /> A few steps more, and it utterly falls apart. <br /> You land hard on your back.",
+        "Image":"Ladders",
         "Layer1":"",
         "Layer2":"",
         "Options":
         [
             {
-                "Text":"Go to end.",
-                "Link":"End"
+                "Text":"< Continue >",
+                "Link":"HotelStairs3a"
             }
         ]
     },
-    "End":
+    "HotelStairs3a":
+    {
+        "Type":"Basic",
+        "Title":"Hotel Yard",
+        "Text":"As you struggle to retain conscience, three blurry figures appear. <br /> \" What have we got ‘ere fellas?\" - Says the tallest figure. <br /> \"A curious little fly… Let’s gut ‘im!\" <br /> In an ensuing struggle one of the robbers gives you a nasty cut on the neck.",
+        "Image":"Death",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelStairs4"
+            }
+        ]
+    },
+    "HotelStairs4":
+    {
+        "Type":"Basic",
+        "Title":"Hotel Yard",
+        "Text":"\"My shirt, it's all drenched in blood!\" <br /> \"So? It was lousy anyways. Take his, he won't mind. \" <br /> \" I get the shoes this time! Just look at 'em. \" <br /> Those are the last words you hear. Beaten, bloodied and robbed, you only manage to crawl for a few meters and then collapse in a muddy puddle. With your last bit of willpower, you manage to turn on your back and look at the sky as life drains slowly out of you.",
+        "Image":"Death",
+        "Layer1":"",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":16
+        },
+        "Options":
+        [
+            {
+                "Text":"< Exit >",
+                "Link":"[CS:Menu]"
+            }
+        ]
+    },
+    "HotelStairs5":
+    {
+        "Type":"Basic",
+        "Title":"Hotel Yard",
+        "Text":"Given that there seems to be no one around, you decide to use a simple levitation spell. It has been far too long, and you feel a sense of ecstasy akin to that of an opiate addict. Carried by the magical currents, you gracefully reach the second floor. The Order can go to hell with their anathemas and virtuous set of rules.",
+        "Image":"FlightBalcony",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor"
+            }
+        ]
+    },
+    "HotelStairs6":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"The vacant servant’s quarters are on the other side of the building, yet you feel this is the safest way to go. As you slowly explore the cramped rooms, two things catch your eye. Firstly, a small stairwell, seemingly intact. Secondly, left behind on one of the night stands, you find a small figurine - maybe an idol of some sort. While it is made of mostly uninteresting materials, there is some kind of simple beauty to it - a sense of comfort. You decide to keep it – if nothing else, it can be pawned off for some money.",
+        "Image":"Stairs",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor"
+            }
+        ]
+    },
+    "HotelStairs7":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"Given that there seems to be no one around, you decide to use a simple levitation spell. It has been far too long, and you feel a sense of Ecstasy akin to that of an opiate addict. After a brief incantation, carried by the magical currents, you gracefully reach the window leading to the second floor. To hell with the Order, their anathemas and list of virtues.",
+        "Image":"FlightStairs",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor"
+            }
+        ]
+    },
+    "HotelUpperFloor":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"The upper floor is in the same sad condition as the lobby, if not worse. <br /> Luxurious red carpets are torn apart, covered in dirt, footprints and rat droppings. <br /> Nearly every corner is full of cobwebs, some so thick you wager they could hold a human being. <br /> A faint light can be seen from the lounge, so you head in that direction, evading filth and debris along the way.",
+        "Image":"HotelRoom",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor1"
+            }
+        ]
+    },
+    "HotelUpperFloor1":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"There is definitely someone in the lounge, that much is clear as you get closer. <br /> The only source of light is a dim glow of a nearly put out fireplace. <br /> In a corner, seated in a large heavy recliner opposite to you is a shadowy figure. <br /> The only thing visible is a large cylinder top hat.",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor1a"
+            }
+        ]
+    },
+    "HotelUpperFloor1a":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"\"You are late..\" - a shrilling voice pierces the silence of the lounge. <br /> There is definitely something wrong here. <br /> In your lifetime, you have seen battlefields, crime scenes, some truly macabre things. <br /> Yet, rarely have you felt such profound emptiness as you approach this man.",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor2"
+            }
+        ]
+    },
+    "HotelUpperFloor2":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"\"Pick a normal location for a meeting next time, and I shall arrive precisely on time.\" - you object. <br /> \"This is the most...\" - your protest is stopped dead in its tracks the moment you meet face to face with this person. <br /> The man appears to be quite elderly, his skin tone extremely pale. He appears to be perfectly still, like a statue from some forgotten era. <br /> You cannot even tell if he is breathing. His face is cloaked by the shade of his hat's rim, as well as due to general lack of illumination. <br /> Your uneasiness rises with every moment spent analyzing the old man. Had he not spoken before, someone could easily think that he died in that lounge chair years ago.",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":16
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor3"
+            }
+        ]
+    },
+    "HotelUpperFloor3":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"\"Well, if you are finished staring\", he proceeds, his voice resembling the sound of chalk on a board, \"I picked the Majestic for several reasons.\" <br /> \" I have quite a fondness for this place; it represents something that is sadly long gone, something you young people don't seem to understand.\" <br /> \"There are also practical reasons. It is out of reach, inaccessible, foreboding. Not everyone could make their way up here. A lot of people would not even try, or give up halfway.\" <br /><br /> \"I heard you are capable, but I had to see for myself.\"",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":15
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor4"
+            }
+        ]
+    },
+    "HotelUpperFloor4":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"An odd spark from the fireplace gives you a brief glimpse of the man’s face, his lips in some kind of spasm resembling a smile.<br /> The old man's skin is extremely stretched, giving his face an even more ghastly appearance.<br /><br /> The worst are his eyes, however.<br /><br /> They appear completely black, sunk deep in his skull, gateways to the darkest abyss. <br /> Few men can intimidate you, yet this man's gaze alone is sending shivers down your spine.",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":16,
+            "TextHeight":190
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor5"
+            }
+        ]
+    },
+    "HotelUpperFloor5":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"\"I have a business offer meant specifically for a person of your calling and abilities. Rest assured, the payment will be generous.\" <br /> \"W-What do you mean by calling?\" - you ask with a slight stutter, doing your best to retain control, or at least some semblance of it.<br /><br /> \"A master of the occult of course.\" - the answer followed.",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":17
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor6"
+            }
+        ]
+    },
+    "HotelUpperFloor6":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"This person’s presence is starting to push you towards madness.<br /> For reasons you cannot explain, the old man’s words and appearance alone are making your sanity wither.<br /> He is obviously not human, more like an apparition, a manifestation of some nameless horror.<br /> The fact that he has information about your past makes the situation all the more unbearable.",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor7"
+            }
+        ]
+    },
+    "HotelUpperFloor7":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"Your first reaction is to feign ignorance, all the while trying to shake the feeling that the room is going to collapse,<br /> leaving you in perpetual darkness:<br /> \"You must have confused me with someone else, I am just a former court scribe, now doing a part - time job as an investigator.\" <br /><br /> \"I am a devout believer in the Purity of mankind. My young friend, your reputation precedes you.\"<br /> \"Drop the act and stop embarrassing yourself.\"<br /> \"Frankly, I would expect someone of your pedigree to be a bit more accomplished liar.\"",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":16,
+            "TextHeight":180
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor8"
+            }
+        ]
+    },
+    "HotelUpperFloor8":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"\"I no longer have anything to do with occultism!\"<br /> \"And even before, I was a dilettante, a mere dabbler.\" - you protest, fully aware of the obvious fallacy of that statement.<br /> \"And I want nothing to do with you as well. Whatever your proposal sir, I must refuse.\"",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor9"
+            }
+        ]
+    },
+    "HotelUpperFloor9":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"\"Don't be a fool!\"<br /> \"It would be in your best interest to hear me out.\" - other than a hint of annoyance in your would-be employer’s voice,<br /> he does not even flinch, remaining perfectly still.<br /> \"I am fully aware that you are wasting away little by little with each passing day,\"<br /> \"looking for every opportunity to slowly kill yourself – since you obviously don‘t have the guts to do it quickly.\" <br /> ( He mutters the last sentence silently, but audible enough to be heard in the deserted lounge )",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":16
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor10"
+            }
+        ]
+    },
+    "HotelUpperFloor10":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"\"Pretend all you like to follow the rules set up by the Order's synod.\"<br />\"Life without magic is not possible for the likes of people such as yourself.\"<br /> \"You will get increasingly desperate and eventually slip up. The only person capable of turning this tide of regressive zealotry is me, and I require your help to do it.\"",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"Stay and listen to the offer",
+                "Link":"HotelUpperFloor11"
+            },
+            {
+                "Text":"Leave",
+                "Link":"HotelUpperFloor21"
+            }
+        ]
+    },
+    "HotelUpperFloor11":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"Against your better judgment, there is some kind of gravitas to this old man.<br /> Combating the sense of danger that is literally taking over every nook and cranny of your mind, no matter how tiny, you find yourself taking a seat in the chair next to the old man. Despite his inhumanely cold demeanor, you can tell that he is pleased.<br /><br />The edges of his thin, pale lips once again curl for a moment in some kind of twisted smile.",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor12"
+            }
+        ]
+    },
+    "HotelUpperFloor12":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"\"Who would have guessed, the chance to return to their comfort area is enough to bring this hesitant lamb to my side.\"<br />\"I don‘ t know why I even bothered with proposals of financial nature.\"<br />\"Magic is the only thing that attracts you, like a moth to a lamp.\"",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor13"
+            }
+        ]
+    },
+    "HotelUpperFloor13":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"\"With heavy heart, I admit, you are right.\"<br />By this point you feel completely overwhelmed by this man‘s presence. Were he to ask you, your darkest secrets would spill out like water.<br />\"The order‘s bans are getting unbearable.\"<br />\"Their sanctimonious babbling of mankind‘s divinity is enough to drive me mad.\"<br />\"Let alone the fact that they are taking over my only source of profit.\"<br />\"The only thing I was ever good at. And believe me, I was truly a master back in my prime.\"",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":16
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor14"
+            }
+        ]
+    },
+    "HotelUpperFloor14":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"\"Hmm, what happened with that snivelling modesty a couple of minutes ago?\" - the old man asks.<br />\"I‘m glad you decided to stop playing a fool.\"<br />\"My associates should know better than to waste their time and energy on such childish matters.\"<br />\"I agree with you, a master of the occult is, or rather was, a title truly fitting you.\"<br />\"We can make those days return. Now, listen up, because my time here is short.\"",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor15"
+            }
+        ]
+    },
+    "HotelUpperFloor15":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"What could he mean by that, you ponder for a second.<br />Your client most certainly appears to be elderly, but you can sense the power emanating from him.<br />Once again you attempt to look him in the eyes, only to look away in a couple of moments.<br />\"I need you to locate an item of great value. It was stolen from me ages ago, and has only recently resurfaced.\"<br />\"You must act quickly, for this window of opportunity will not last for long.\"",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor16"
+            }
+        ]
+    },
+    "HotelUpperFloor16":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"\"I’m guessing that the object in question is of magical nature, hence you haven’t contacted the authorities?\"<br />Your professional side takes over, boosted by your considerable curiosity. The man still makes you uneasy, but somehow you manage to keep yourself stable.<br />\"I can use a divination spell, but we would have to be careful, it is considered a serious offense these days.\"<br /><br />\"I’m afraid such parlor tricks will not suffice. You will have to use all of your skills.\"<br /><br />\"The object is, somehow, hidden from my sight.",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextHeight":170
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor17"
+            }
+        ]
+    },
+    "HotelUpperFloor17":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"\"You haven’t told me yet what it is precisely I’m looking for.\"<br />You state calmly, your confidence growing steadily.<br />\"If the item cannot be tracked properly, the people involved are probably moving it from a place to place, or using some kind of magic themselves.\"<br /><br />\"Right then. I need you to find my Heart.\"<br />The facade you striven so hard to put up turns to rubble and you are once more left looking frightened and vulnerable.",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":16,
+            "TextHeight":170
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor18"
+            }
+        ]
+    },
+    "HotelUpperFloor18":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"\"Your what?\"<br /><br />\"My heart.\" - the old man repeats himself, fixating you with those bottomless fissures masquerading for eyes.<br />\"It was taken from me ages ago and has only recently resurfaced.\"<br /><br />\"You are talking about some kind of artifact, or maybe a gem?\"<br /><br />\"I am talking about my heart!\"",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":16,
+            "TextHeight":200
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor19"
+            }
+        ]
+    },
+    "HotelUpperFloor19":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"The old man suddenly loses his composure. He appears very weak, almost translucent.<br />\"I am not able to stay for much longer. Take this!\" - he grabs your arm, his skin cold as marble.<br />Suddenly, he vanishes, leaving you alone, perplexed and desperate for answers.",
+        "Image":"HotelRoom",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor20"
+            }
+        ]
+    },
+    "HotelUpperFloor20":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"Still trying to make sense of the scene that just transpired, you realize that two small copper coins are resting in your arm, alongside a scribbled sheet of paper reading: \"This is just an upfront payment. Find the Heart and your deepest wishes shall be fulfilled.\"<br />This man can make everything seem menacing, even the prospect of a paycheck, you say for yourself. grateful for the silence that comes instead of a reply.    ",
+        "Image":"Coins",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"OfficeStreet1Variant"
+            }
+        ]
+    },
+    "HotelUpperFloor21":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"The old man’s speech fails to persuade you.<br />\"I would rather suffer a lifetime of Order's control and propaganda then conspire with the likes of you.\"<br />\"No amount of money or vague promises of a better tomorrow can convince me to trust a person enveloped in darkness as you are.\"",
+        "Image":"HotelRoom",
+        "Layer1":"Personification",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor22"
+            }
+        ]
+    },
+    "HotelUpperFloor22":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":"The fireplace suddenly dies out. Your vision extremely limited.<br />You barely make out that the chair in which the old man sat is now empty.<br />\"What do you know about darkness?\"<br /><br />Desperate to find the source of the disembodied voice, you turn around frantically across the room.<br />In haste, you cross your fingers in a sign summoning a dim light, but it is quickly put out by this malevolent presence.",
+        "Image":"HotelRoom",
+        "Layer1":"",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextHeight":180
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"HotelUpperFloor23"
+            }
+        ]
+    },
+    "HotelUpperFloor23":
+    {
+        "Type":"Basic",
+        "Title":"Abandoned Hotel",
+        "Text":" As the glow of your spell fades, a monstrous laughter can be heard, filling the empty hallways of the Majestic.<br />The only option left is to flee. After nearly an hour of running, you collapse from exhaustion.<br />Unsure whether that thing followed, you decide to head for home.",
+        "Image":"Hotel",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"OfficeStreet2Variant"
+            }
+        ]
+    },
+    "OfficeStreet1Variant":
+    {
+        "Type":"Basic",
+        "Title":"Haven",
+        "Text":"On the way to the older part of town where your office is situated, an all too common sense of resignation and misery begins to envelop you. To say that the neighborhood has seen better days would be an understatement.  The narrow streets are surrounded on both sides by an endless line of buildings that seem like they would collapse were they not built in such tight rows.",
+        "Image":"Street",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"OfficeStreet1Variant1"
+            }
+        ]
+    },
+    "OfficeStreet1Variant1":
+    {
+        "Type":"Basic",
+        "Title":"Haven",
+        "Text":"Barely registered by a resident drunkard lying next to the door, you begin to climb the ram shackled stairs. Somewhat surprisingly another feeling surges in your mind. It may not be much, but this is a little heaven, a safe house keeping the madness of the city at bay. Greeted by a familiar screech of the door, you leave the depression of the outside world behind.",
+        "Image":"Street",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"AfterAccepting1"
+            }
+        ]
+    },
+    "OfficeStreet2Variant":
+    {
+        "Type":"Basic",
+        "Title":"Haven",
+        "Text":"On the way to the older part of town where your office is situated, an all too common sense of resignation and misery begins to envelop you. To say that the neighborhood has seen better days would be an understatement.  The narrow streets are surrounded on both sides by an endless line of buildings that seem like they would collapse were they not built in such tight rows.",
+        "Image":"Street",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"OfficeStreet2Variant1"
+            }
+        ]
+    },
+    "OfficeStreet2Variant1":
+    {
+        "Type":"Basic",
+        "Title":"Haven",
+        "Text":"Barely registered by a resident drunkard lying next to the door, you begin to climb the ram shackled stairs. Somewhat surprisingly another feeling surges in your mind. It may not be much, but this is a little haven, a safe house keeping the madness of the city at bay. Greeted by a familiar screech of the door, you leave the depression of the outside world behind.",
+        "Image":"Street",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"AfterDeclining1"
+            }
+        ]
+    },
+    "AfterAccepting1":
+    {
+        "Type":"Basic",
+        "Title":"Haven",
+        "Text":"You awake the following morning feeling worse for wear; last night’s events didn’t really provide the conditions for a good night’s sleep. Undeterred by this, you decide to give this new bizarre case your full attention. There is something definitely wrong, otherworldly about your new employer, yet your gut tells you that the old man is not trying to trick you. Since you have almost no information, you decide to study the coins more closely.",
+        "Image":"Street",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"AfterAccepting2"
+            }
+        ]
+    },
+    "AfterAccepting2":
+    {
+        "Type":"Basic",
+        "Title":"Haven",
+        "Text":"The coins are obviously ancient, having been minted hundreds if not thousands of years ago. Upon closer inspection, it becomes evident (as evident as it can be on an engraving of that size) that the ruler depicted on the coins head is your mysterious employer. More interesting than that however, is the fact that the coins emit some kind of silent humming.",
+        "Image":"Coins",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"AfterAccepting3"
+            }
+        ]
+    },
+    "AfterAccepting3":
+    {
+        "Type":"Basic",
+        "Title":"Haven",
+        "Text":" Thanks to your impressive library of all things arcane, you soon learn the true value of these coppers. Minted ages ago, they can assume the form of any small object that is required by the situation at hand, however dire it may be. This is not just an advance payment. Many difficult encounters can be circumnavigated with these long forgotten tools of illusion.",
+        "Image":"Coins",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"AfterAccepting4"
+            }
+        ]
+    },
+    "AfterAccepting4":
+    {
+        "Type":"Basic",
+        "Title":"Haven",
+        "Text":"The other side of the coin contains only one word - Ravensmore…..<br /> The only relevant thing that comes to your mind is a part of city with a similar name. Given the lack of any other information, it is the best place to begin your investigation.",
+        "Image":"Coins",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":""
+            }
+        ]
+    },
+    "AfterDeclining1":
+    {
+        "Type":"Basic",
+        "Title":"Haven",
+        "Text":"Sleep didn’t come to you at all during the night. Still, as the Sun’s first rays pushed through heavy curtains, you are driven to leave the tiny bedroom. Desperate to collect your thoughts, you start rummaging through case files, both old and new, only to find some kind of distraction from remembering the eerie events of last night.",
+        "Image":"Street",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"AfterDeclining2"
+            }
+        ]
+    },
+    "AfterDeclining2":
+    {
+        "Type":"Basic",
+        "Title":"Haven",
+        "Text":"Clientele is getting less and less numerous as the months go by. The Order’s investigators, reveling in their newly gotten authority have taken over or out rightly forbidden many, if not all, of the most profitable areas in your line of work. Given your previous reputation and accomplishments, not to mention the carefully woven web of contacts with the bureaucracy, you somehow managed to stay open for business.",
+        "Image":"Street",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"AfterDeclining3"
+            }
+        ]
+    },
+    "AfterDeclining3":
+    {
+        "Type":"Basic",
+        "Title":"Haven",
+        "Text":"Still, nowadays you are forced to take any available job. It may put money on the table, but every mundane, dreary case leaves you with a sense of being drained, your life and calling robbed of its true purpose. Nevertheless, you are honestly glad to hear loud knocking. With visible enthusiasm, you call for the potential client to enter, thankful for this timely digression. ",
+        "Image":"Street",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"SecondTalk1"
+            }
+        ]
+    },
+    "SecondTalk1":
+    {
+        "Type":"Basic",
+        "Title":"Haven",
+        "Text":"That thankfulness last only a moment though, for the person at the door turns out to be the old man from last night. He looks a tad less unsettling in the daylight; his ridiculously large hat and coat have been replaced with clean, if slightly old fashioned attire. His face still looks menacing though, its sharp lines accentuated by dark, lifeless eyes.",
+        "Image":"HotelRoom",
+        "Layer1":"PersonificationLeft",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"SecondTalk2"
+            }
+        ]
+    },
+    "SecondTalk2":
+    {
+        "Type":"Basic",
+        "Title":"Haven",
+        "Text":"\"We didn't finish our conversation last night, he remarks with a condescending smirk.\"<br />\"I have a job for you, compensation will be very generous.\"<br />\"I know of your past reputation. You are the best there is, at least in these dark times.\"<br />\"The matter is urgent\" - he adds, and for a brief moment you detect a hint of desperation in this otherwise intimidating individual.<br />\"Which is why I am not going to take no as a reply.\"",
+        "Image":"HotelRoom",
+        "Layer1":"PersonificationLeft",
+        "Layer2":"",
+        "Settings":
+        {
+            "TextFontSize":17
+        },
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"SecondTalk3"
+            }
+        ]
+    },
+    "SecondTalk3":
     {
         "Type":"Basic",
         "Title":"Ending",
-        "Text":"Game is finished.",
-        "Image":"Back1",
+        "Text":"\"Like I've said, I no longer deal with anything even remotely connected with the Occult!\" You insist, fully aware that the elder will not be persuaded by this feeble attempt of persuasion. \"I know, he scoffs, these days you find lost wallets, spy on behalf of jealous spouses and waste what little money you earn in pubs. I think the \"Salty plum\" is your favorite. The old man clearly knows a lot about your recent activities, and does not hesitate to state it, in very disdainful manner..",
+        "Image":"HotelRoom",
         "Layer1":"",
         "Layer2":"",
         "Options":

@@ -5,8 +5,8 @@
     "TitleHeight":50,
     "TitleFontSize":30,
     "ImageHeight":700,
-    "TextHeight":120,
-    "TextFontSize":15,
+    "TextHeight":160,
+    "TextFontSize":18,
     "OptionHeight":40,
     "OptionFontSize":18
 }
