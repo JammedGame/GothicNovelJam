@@ -40,7 +40,7 @@ class MenuScene extends UIScene
     }
     private PlayClick() : void
     {
-        AdventureScene.Current.SetState("Begining");
+        AdventureScene.Current.SetState("SecondTalk2");
         TBX.Runner.Current.SwitchScene("Adventure");
     }
     private SettingsClick() : void

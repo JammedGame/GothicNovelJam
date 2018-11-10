@@ -315,7 +315,7 @@ var MenuScene = /** @class */ (function (_super) {
         this._Credits.Events.Click.push(this.CreditsClick);
     };
     MenuScene.prototype.PlayClick = function () {
-        AdventureScene_1.AdventureScene.Current.SetState("Begining");
+        AdventureScene_1.AdventureScene.Current.SetState("SecondTalk2");
         TBX.Runner.Current.SwitchScene("Adventure");
     };
     MenuScene.prototype.SettingsClick = function () {

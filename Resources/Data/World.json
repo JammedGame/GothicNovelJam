@@ -974,14 +974,130 @@
         "Title":"Ending",
         "Text":"\"Like I've said, I no longer deal with anything even remotely connected with the Occult!\" You insist, fully aware that the elder will not be persuaded by this feeble attempt of persuasion. \"I know, he scoffs, these days you find lost wallets, spy on behalf of jealous spouses and waste what little money you earn in pubs. I think the \"Salty plum\" is your favorite. The old man clearly knows a lot about your recent activities, and does not hesitate to state it, in very disdainful manner..",
         "Image":"HotelRoom",
+        "Layer1":"PersonificationLeft",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"SecondTalk4"
+            }
+        ]
+    },
+    "SecondTalk4":
+    {
+        "Type":"Basic",
+        "Title":"Ending",
+        "Text":"\"Like I said.\" He continues after a brief pause. \"You are a gifted investigator - sharp, perceptive, well connected. That is your true calling, your natural environment. The mystical energies of this city flow through you, they shape you. Without them, you would not be the person you are today...\"",
+        "Image":"HotelRoom",
+        "Layer1":"PersonificationLeft",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"SecondTalk5"
+            }
+        ]
+    },
+    "SecondTalk5":
+    {
+        "Type":"Basic",
+        "Title":"Ending",
+        "Text":"That last sentence was clearly meant as a threat. This man clearly knows a lot about your past and is willing to use - or misuse, that information. Finished with his speech, your \"client\" sits back in a heavy armchair, relaxed like it is his own. That superior smirk does not leave his face, as he keeps staring at you, or rather through you. The message is evident. He will not leave until things go his way. ...\"",
+        "Image":"HotelRoom",
+        "Layer1":"PersonificationLeft",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"Refuse once again",
+                "Link":"ThirdTalk1"
+            },
+            {
+                "Text":"Accept",
+                "Link":"FourthTalk1"
+            }
+        ]
+    },
+    "ThirdTalk1":
+    {
+        "Type":"Basic",
+        "Title":"Ending",
+        "Text":"You grow more frustrated with the old man by the minute. Initial sense of dread has given way to clear feeling of disgust, even hatred. -Get out of my office! You yell, and grab the elder by the lapel. In the blink of an eye you end up flying across the office, even though the old man did not appear to move a muscle. -I have clearly overestimated you, boy. He remarks, the sarcasm in his voice replaced by bitter judgment. As you desperately fight to regain some air in your lungs leaning on your desk he suddenly vanishes, leaving you alone, with a growing sense of desperation clawing its way inside your mind.",
+        "Image":"HotelRoom",
+        "Layer1":"PersonificationLeft",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"ThirdTalk2"
+            }
+        ]
+    },
+    "ThirdTalk2":
+    {
+        "Type":"Basic",
+        "Title":"Ending",
+        "Text":"Unsure that you have rid yourself of the persistent would – be client, the next few days become a slow, agonizing torture. Food has no taste and gives you no sustenance, sleep evades you as every single sound or shadow seems to portend danger. Leaving the office becomes an ever increasing ordeal, and even the most mundane activities demand an increasing amount of concentration.",
+        "Image":"City",
         "Layer1":"",
         "Layer2":"",
         "Options":
         [
             {
-                "Text":"Complete",
+                "Text":"< Continue >",
+                "Link":"ThirdTalk3"
+            }
+        ]
+    },
+    "ThirdTalk3":
+    {
+        "Type":"Basic",
+        "Title":"Ending",
+        "Text":"Then, one night, as the sun starts to go down, you once again encounter the old man. This time, he remains silent, observing your every move. There is no need for words, as you feel his intense anger and displeasure. Your consciousness starts to drown in a vortex of dark thoughts. As you begin to lose the ability to speak, your primal instincts take hold, desperate to find some shelter.",
+        "Image":"City",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"ThirdTalk4"
+            }
+        ]
+    },   
+    "ThirdTalk4":
+    {
+        "Type":"Basic",
+        "Title":"Ending",
+        "Text":"Taking a sharp turn, you bump into a passer - by wearing a heavy cowl and a top hat. In a moment of desperation, you mistakenly think him for your pursuer. Memories are blurred after that. Local newspapers have reported weeks after that how a seemingly feral middle – aged man ripped apart an elderly gentleman. The wounds inflicted on an unfortunate individual have been compared to those made by an animal.",
+        "Image":"City",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Continue >",
+                "Link":"ThirdTalk5"
+            }
+        ]
+    },   
+    "ThirdTalk5":
+    {
+        "Type":"Basic",
+        "Title":"Ending",
+        "Text":"Taking a sharp turn, you bump into a passer - by wearing a heavy cowl and a top hat. In a moment of desperation, you mistakenly think him for your pursuer. Memories are blurred after that. Local newspapers have reported weeks after that how a seemingly feral middle – aged man ripped apart an elderly gentleman. The wounds inflicted on an unfortunate individual have been compared to those made by an animal.",
+        "Image":"Asylum",
+        "Layer1":"",
+        "Layer2":"",
+        "Options":
+        [
+            {
+                "Text":"< Exit >",
                 "Link":"[CS:Menu]"
             }
         ]
-    }
+    }   
 }
